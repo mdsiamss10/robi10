@@ -1,0 +1,18 @@
+* {
+    text-decoration: none !important;
+}
+.navbar-brand {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    font-weight: 900;
+}
+nav a:hover{
+    color: #121416 !important;
+}
+.jumbotron {
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url('/assets/images/leaves.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: #fff;
+}
