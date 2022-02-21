@@ -16,3 +16,9 @@ nav a:hover{
     background-size: cover;
     color: #fff;
 }
+.blog-posts {
+    margin-bottom: 40px;
+}
+.blog-posts-title {
+    font-size: 24px;
+}
