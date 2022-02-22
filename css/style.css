@@ -1,9 +1,10 @@
 * {
     text-decoration: none !important;
 }
-.navbar-brand {
+.navbar-brand{
+    color: #222 !important;
     font-family: 'Playfair Display', serif;
-    font-size: 36px;
+    font-size: 40px;
     font-weight: 900;
 }
 nav a:hover{
@@ -24,4 +25,17 @@ nav a:hover{
 }
 footer {
     background: #f9f9f9;
+}
+.footer-find-me {
+    cursor: default;
+    user-select: none;
+}
+.footer-find-me img{
+    width: calc(25px + 1vw);
+    cursor: pointer;
+    margin: auto 5px;
+    transition: all 0.4s;
+}
+.footer-find-me img:hover {
+    transform: scale(1.4);
 }
